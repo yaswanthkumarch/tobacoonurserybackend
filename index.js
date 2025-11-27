@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Updated connection string without deprecated options mydatabase
-mongoose.connect('mongodb+srv://yaswanthchennareddy25:qel4iphauKWaQ2uV@cluster0.jby94.mongodb.net/nursary_2026?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://yaswanthchennareddy25:qel4iphauKWaQ2uV@cluster0.jby94.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Cluster0')
   .then(() => console.log('Connected to MongoDB Atlas'))
   .catch((error) => console.error('MongoDB connection error:', error));
 
